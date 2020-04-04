@@ -1,0 +1,6 @@
+{
+  "name": "UserUpdateDialog",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./UserUpdateDialog.js"
+}
