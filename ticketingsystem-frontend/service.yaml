@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: reactimage
+  labels:
+    app: reactimage
+spec:
+  ports:
+  - port: 3000
+    name: kafka-port
+    targetPort: 3000
+    protocol: TCP
+  selector:
+    app: reactimage
+  type: LoadBalancer

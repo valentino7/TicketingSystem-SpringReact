@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: reactimage
+spec:
+  replicas: 1
+  selector:
+    app: reactimage
+  template:
+    metadata:
+      labels:
+        app: reactimage
+    spec:
+      containers:
+      - name: reactimage
+        image: trotten/reactimage2
+        
