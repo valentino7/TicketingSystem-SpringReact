@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="90.98710317460319" y="257.0">it.uniroma2.ticketingsystem.service.TeamService</node>
+    <node x="203.41117724867726" y="89.0">it.uniroma2.ticketingsystem.domain.Team</node>
+    <node x="202.5" y="168.0">it.uniroma2.ticketingsystem.domain.Team_extended</node>
+    <node x="47.5" y="168.0">it.uniroma2.ticketingsystem.repository.TeamRepository</node>
+    <node x="223.15985449735453" y="336.0">it.uniroma2.ticketingsystem.rest.TeamRestController</node>
+    <node x="158.9111772486773" y="0.0">it.uniroma2.ticketingsystem.domain.DBReference</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="it.uniroma2.ticketingsystem.domain.Team" target="it.uniroma2.ticketingsystem.domain.DBReference">
+      <point x="26.00000000000003" y="-14.5" />
+      <point x="268.4111772486773" y="69.0" />
+      <point x="249.26832010582015" y="69.0" />
+      <point x="32.85714285714286" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.service.TeamService" target="it.uniroma2.ticketingsystem.domain.Team_extended">
+      <point x="28.75" y="-14.5" />
+      <point x="177.2371031746032" y="227.0" />
+      <point x="224.33333333333334" y="227.0" />
+      <point x="-43.66666666666666" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.repository.TeamRepository" target="it.uniroma2.ticketingsystem.domain.DBReference">
+      <point x="-33.5" y="-14.5" />
+      <point x="81.0" y="69.0" />
+      <point x="199.98260582010587" y="69.0" />
+      <point x="-16.428571428571416" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.service.TeamService" target="it.uniroma2.ticketingsystem.domain.DBReference">
+      <point x="-28.75" y="-14.5" />
+      <point x="119.73710317460319" y="227.0" />
+      <point x="37.0" y="227.0" />
+      <point x="37.0" y="59.0" />
+      <point x="183.55403439153443" y="59.0" />
+      <point x="-32.85714285714286" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.Team_extended" target="it.uniroma2.ticketingsystem.domain.Team">
+      <point x="32.75" y="-14.5" />
+      <point x="300.75" y="148.0" />
+      <point x="258.01117724867726" y="148.0" />
+      <point x="15.599999999999994" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.service.TeamService" target="it.uniroma2.ticketingsystem.domain.Team">
+      <point x="9.583333333333343" y="-14.5" />
+      <point x="158.07043650793653" y="217.0" />
+      <point x="192.0" y="217.0" />
+      <point x="192.0" y="148.0" />
+      <point x="226.81117724867727" y="148.0" />
+      <point x="-15.599999999999994" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.rest.TeamRestController" target="it.uniroma2.ticketingsystem.service.TeamService">
+      <point x="-57.375" y="-14.5" />
+      <point x="242.28485449735453" y="311.0" />
+      <point x="148.4871031746032" y="311.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.repository.TeamRepository" target="it.uniroma2.ticketingsystem.domain.Team">
+      <point x="33.5" y="-14.5" />
+      <point x="148.0" y="138.0" />
+      <point x="211.21117724867727" y="138.0" />
+      <point x="-31.19999999999999" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.rest.TeamRestController" target="it.uniroma2.ticketingsystem.domain.Team">
+      <point x="19.125" y="-14.5" />
+      <point x="318.78485449735456" y="311.0" />
+      <point x="344.0" y="311.0" />
+      <point x="344.0" y="138.0" />
+      <point x="273.6111772486773" y="138.0" />
+      <point x="31.200000000000017" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.rest.TeamRestController" target="it.uniroma2.ticketingsystem.domain.Team_extended">
+      <point x="-19.125" y="-14.5" />
+      <point x="280.53485449735456" y="311.0" />
+      <point x="306.9037698412698" y="311.0" />
+      <point x="306.9037698412698" y="237.0" />
+      <point x="311.66666666666663" y="237.0" />
+      <point x="43.66666666666662" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.rest.TeamRestController" target="it.uniroma2.ticketingsystem.domain.DBReference">
+      <point x="57.375" y="-14.5" />
+      <point x="357.03485449735456" y="311.0" />
+      <point x="355.0" y="311.0" />
+      <point x="355.0" y="59.0" />
+      <point x="265.69689153439157" y="59.0" />
+      <point x="49.28571428571428" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.service.TeamService" target="it.uniroma2.ticketingsystem.repository.TeamRepository">
+      <point x="-9.583333333333329" y="-14.5" />
+      <point x="138.90376984126988" y="217.0" />
+      <point x="114.5" y="217.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="33.0" y="150.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

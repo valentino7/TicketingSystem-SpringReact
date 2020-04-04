@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="391.47916666666674" y="644.0">it.uniroma2.ticketingsystem.domain.ConfigurationFile</node>
+    <node x="55.1875" y="488.0">it.uniroma2.ticketingsystem.domain.UserSettings</node>
+    <node x="382.97916666666663" y="499.0">it.uniroma2.ticketingsystem.domain.TeamSettings</node>
+    <node x="1018.3125" y="311.0">it.uniroma2.ticketingsystem.domain.LifeCycleVersion</node>
+    <node x="833.3125" y="300.0">it.uniroma2.ticketingsystem.domain.TicketCategory</node>
+    <node x="75.75170765027326" y="311.0">it.uniroma2.ticketingsystem.domain.UserRole</node>
+    <node x="1180.5714285714284" y="256.0">it.uniroma2.ticketingsystem.domain.TicketAdditionalField</node>
+    <node x="475.98399687743984" y="900.0">it.uniroma2.ticketingsystem.repository.ConfigurationFileRepository</node>
+    <node x="1369.5714285714284" y="267.0">it.uniroma2.ticketingsystem.domain.Typology</node>
+    <node x="512.3867096018737" y="1044.0">it.uniroma2.ticketingsystem.service.ConfigurationFileService</node>
+    <node x="976.0120511319284" y="466.0">it.uniroma2.ticketingsystem.domain.TicketSettings</node>
+    <node x="692.0762587822016" y="0.0">it.uniroma2.ticketingsystem.domain.AdditionalField</node>
+    <node x="429.79337431694" y="300.0">it.uniroma2.ticketingsystem.domain.TeamName</node>
+    <node x="369.5117096018737" y="1518.0">it.uniroma2.ticketingsystem.rest.ConfigurationFileRestController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="it.uniroma2.ticketingsystem.rest.ConfigurationFileRestController" target="it.uniroma2.ticketingsystem.domain.ConfigurationFile">
+      <point x="-27.9375" y="-202.0" />
+      <point x="565.0742096018737" y="1468.0" />
+      <point x="427.40978727556615" y="1468.0" />
+      <point x="427.40978727556615" y="875.0" />
+      <point x="433.31250000000006" y="875.0" />
+      <point x="-83.66666666666669" y="103.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.TicketSettings" target="it.uniroma2.ticketingsystem.domain.LifeCycleVersion">
+      <point x="-46.14285714285711" y="-59.0" />
+      <point x="1091.3691939890714" y="446.0" />
+      <point x="1082.3125" y="446.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.service.ConfigurationFileService" target="it.uniroma2.ticketingsystem.repository.ConfigurationFileRepository">
+      <point x="-22.25" y="-202.0" />
+      <point x="668.1367096018737" y="994.0" />
+      <point x="626.9839968774398" y="994.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.repository.ConfigurationFileRepository" target="it.uniroma2.ticketingsystem.domain.ConfigurationFile">
+      <point x="0.0" y="-37.0" />
+      <point x="626.9839968774398" y="875.0" />
+      <point x="600.6458333333335" y="875.0" />
+      <point x="83.66666666666674" y="103.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.rest.ConfigurationFileRestController" target="it.uniroma2.ticketingsystem.service.ConfigurationFileService">
+      <point x="27.9375" y="-202.0" />
+      <point x="620.9492096018737" y="1468.0" />
+      <point x="690.3867096018737" y="1468.0" />
+      <point x="0.0" y="202.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.Typology" target="it.uniroma2.ticketingsystem.domain.AdditionalField">
+      <point x="-79.75" y="-59.0" />
+      <point x="1449.3214285714284" y="236.0" />
+      <point x="820.8262587822016" y="236.0" />
+      <point x="25.75" y="103.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.service.ConfigurationFileService" target="it.uniroma2.ticketingsystem.domain.ConfigurationFile">
+      <point x="-66.75" y="-202.0" />
+      <point x="623.6367096018737" y="1004.0" />
+      <point x="465.48399687743984" y="1004.0" />
+      <point x="465.48399687743984" y="875.0" />
+      <point x="516.9791666666667" y="875.0" />
+      <point x="0.0" y="103.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.rest.ConfigurationFileRestController" target="it.uniroma2.ticketingsystem.domain.Typology">
+      <point x="195.5625" y="-202.0" />
+      <point x="788.5742096018737" y="1498.0" />
+      <point x="1594.8026444184234" y="1498.0" />
+      <point x="1594.8026444184234" y="446.0" />
+      <point x="1648.6964285714284" y="446.0" />
+      <point x="119.625" y="59.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.service.ConfigurationFileService" target="it.uniroma2.ticketingsystem.domain.UserRole">
+      <point x="-111.25" y="-202.0" />
+      <point x="579.1367096018737" y="1014.0" />
+      <point x="44.6875" y="1014.0" />
+      <point x="44.6875" y="446.0" />
+      <point x="110.62670765027326" y="446.0" />
+      <point x="-11.625" y="15.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.rest.ConfigurationFileRestController" target="it.uniroma2.ticketingsystem.domain.TicketAdditionalField">
+      <point x="139.6875" y="-202.0" />
+      <point x="732.6992096018737" y="1488.0" />
+      <point x="1327.5117096018735" y="1488.0" />
+      <point x="63.375" y="70.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.ConfigurationFile" target="it.uniroma2.ticketingsystem.domain.UserSettings">
+      <point x="-104.58333333333337" y="-103.0" />
+      <point x="412.39583333333337" y="624.0" />
+      <point x="127.1875" y="624.0" />
+      <point x="-72.0" y="37.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.TicketSettings" target="it.uniroma2.ticketingsystem.domain.TicketCategory">
+      <point x="-92.28571428571422" y="-59.0" />
+      <point x="1045.226336846214" y="436.0" />
+      <point x="977.6875" y="436.0" />
+      <point x="61.875" y="26.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.ConfigurationFile" target="it.uniroma2.ticketingsystem.domain.TicketSettings">
+      <point x="62.75" y="-103.0" />
+      <point x="579.7291666666667" y="614.0" />
+      <point x="1056.7620511319283" y="614.0" />
+      <point x="-80.75" y="59.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.rest.ConfigurationFileRestController" target="it.uniroma2.ticketingsystem.domain.UserRole">
+      <point x="-139.6875" y="-202.0" />
+      <point x="453.3242096018737" y="1488.0" />
+      <point x="22.0" y="1488.0" />
+      <point x="22.0" y="436.0" />
+      <point x="87.37670765027326" y="436.0" />
+      <point x="-34.875" y="15.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.service.ConfigurationFileService" target="it.uniroma2.ticketingsystem.domain.TicketAdditionalField">
+      <point x="111.25" y="-202.0" />
+      <point x="801.6367096018737" y="1014.0" />
+      <point x="1309.5120511319283" y="1014.0" />
+      <point x="1309.5120511319283" y="426.0" />
+      <point x="1286.1964285714284" y="426.0" />
+      <point x="21.125" y="70.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.TicketSettings" target="it.uniroma2.ticketingsystem.domain.TicketAdditionalField">
+      <point x="0.0" y="-59.0" />
+      <point x="1137.5120511319283" y="416.0" />
+      <point x="1201.6964285714284" y="416.0" />
+      <point x="-63.375" y="70.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.service.ConfigurationFileService" target="it.uniroma2.ticketingsystem.domain.TicketCategory">
+      <point x="66.75" y="-202.0" />
+      <point x="757.1367096018737" y="1004.0" />
+      <point x="847.1683743169399" y="1004.0" />
+      <point x="847.1683743169399" y="446.0" />
+      <point x="853.9375" y="446.0" />
+      <point x="-61.875" y="26.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.service.ConfigurationFileService" target="it.uniroma2.ticketingsystem.domain.Typology">
+      <point x="155.75" y="-202.0" />
+      <point x="846.1367096018737" y="1024.0" />
+      <point x="1583.8026444184234" y="1024.0" />
+      <point x="1583.8026444184234" y="446.0" />
+      <point x="1568.9464285714284" y="446.0" />
+      <point x="39.875" y="59.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.rest.ConfigurationFileRestController" target="it.uniroma2.ticketingsystem.domain.TeamName">
+      <point x="-83.8125" y="-202.0" />
+      <point x="509.1992096018737" y="1478.0" />
+      <point x="353.6875" y="1478.0" />
+      <point x="353.6875" y="436.0" />
+      <point x="450.41837431694" y="436.0" />
+      <point x="-61.875" y="26.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.rest.ConfigurationFileRestController" target="it.uniroma2.ticketingsystem.domain.AdditionalField">
+      <point x="-195.5625" y="-202.0" />
+      <point x="397.4492096018737" y="1498.0" />
+      <point x="0.0" y="1498.0" />
+      <point x="0.0" y="226.0" />
+      <point x="717.8262587822016" y="226.0" />
+      <point x="-77.25" y="103.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.rest.ConfigurationFileRestController" target="it.uniroma2.ticketingsystem.domain.TicketCategory">
+      <point x="83.8125" y="-202.0" />
+      <point x="676.8242096018737" y="1478.0" />
+      <point x="895.1875" y="1478.0" />
+      <point x="-20.625" y="26.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.UserSettings" target="it.uniroma2.ticketingsystem.domain.UserRole">
+      <point x="72.00000000000006" y="-37.0" />
+      <point x="271.18750000000006" y="446.0" />
+      <point x="157.12670765027326" y="446.0" />
+      <point x="34.875" y="15.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.service.ConfigurationFileService" target="it.uniroma2.ticketingsystem.domain.TeamName">
+      <point x="22.25" y="-202.0" />
+      <point x="712.6367096018737" y="994.0" />
+      <point x="788.4839968774397" y="994.0" />
+      <point x="788.4839968774397" y="436.0" />
+      <point x="574.16837431694" y="436.0" />
+      <point x="61.875" y="26.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.TeamSettings" target="it.uniroma2.ticketingsystem.domain.TeamName">
+      <point x="-67.0" y="-26.0" />
+      <point x="449.97916666666663" y="446.0" />
+      <point x="491.66837431694" y="446.0" />
+      <point x="-20.625" y="26.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.service.ConfigurationFileService" target="it.uniroma2.ticketingsystem.domain.AdditionalField">
+      <point x="-155.75" y="-202.0" />
+      <point x="534.6367096018737" y="1024.0" />
+      <point x="11.0" y="1024.0" />
+      <point x="11.0" y="236.0" />
+      <point x="769.3262587822016" y="236.0" />
+      <point x="-25.75" y="103.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.TicketSettings" target="it.uniroma2.ticketingsystem.domain.Typology">
+      <point x="92.28571428571422" y="-59.0" />
+      <point x="1229.7977654176425" y="436.0" />
+      <point x="1409.4464285714284" y="436.0" />
+      <point x="-119.625" y="59.0" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.ConfigurationFile" target="it.uniroma2.ticketingsystem.domain.TeamSettings">
+      <point x="20.91666666666663" y="-103.0" />
+      <point x="537.8958333333334" y="604.0" />
+      <point x="583.9791666666666" y="604.0" />
+      <point x="67.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="462.5" y="139.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

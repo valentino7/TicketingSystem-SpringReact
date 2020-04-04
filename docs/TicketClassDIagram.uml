@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="170.0" y="222.0">it.uniroma2.ticketingsystem.service.TicketService</node>
+    <node x="0.0" y="0.0">it.uniroma2.ticketingsystem.repository.TicketCategoryRepository</node>
+    <node x="181.0" y="148.0">it.uniroma2.ticketingsystem.domain.TicketCategory</node>
+    <node x="207.0" y="74.0">it.uniroma2.ticketingsystem.rest.TicketRestController</node>
+    <node x="0.0" y="222.0">it.uniroma2.ticketingsystem.domain.FieldReference</node>
+    <node x="0.0" y="148.0">it.uniroma2.ticketingsystem.repository.TicketRepository</node>
+    <node x="160.0" y="296.0">it.uniroma2.ticketingsystem.domain.Ticket</node>
+    <node x="0.0" y="74.0">it.uniroma2.ticketingsystem.domain.AdditionalFieldsValue</node>
+    <node x="0.0" y="296.0">it.uniroma2.ticketingsystem.domain.DBReference</node>
+    <node x="229.0" y="0.0">it.uniroma2.ticketingsystem.service.TicketCategoryService</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="145.5" y="269.5" />
+  <SelectedNodes>
+    <node>it.uniroma2.ticketingsystem.domain.DBReference</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

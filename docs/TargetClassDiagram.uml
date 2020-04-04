@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="174.5625" y="0.0">it.uniroma2.ticketingsystem.domain.factoryTarget.Target</node>
+    <node x="203.0" y="79.0">it.uniroma2.ticketingsystem.domain.factoryTarget.Product</node>
+    <node x="130.62499999999994" y="395.0">it.uniroma2.ticketingsystem.rest.TargetRestController</node>
+    <node x="98.00000000000001" y="79.0">it.uniroma2.ticketingsystem.domain.factoryTarget.Service</node>
+    <node x="114.62499999999999" y="316.0">it.uniroma2.ticketingsystem.service.TargetService</node>
+    <node x="133.75" y="158.0">it.uniroma2.ticketingsystem.domain.factoryTarget.FactoryTarget</node>
+    <node x="65.37499999999999" y="237.0">it.uniroma2.ticketingsystem.repository.TargetRepository</node>
+    <node x="0.0" y="79.0">it.uniroma2.ticketingsystem.domain.factoryTarget.Other</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="it.uniroma2.ticketingsystem.service.TargetService" target="it.uniroma2.ticketingsystem.domain.factoryTarget.FactoryTarget">
+      <point x="29.75" y="-14.5" />
+      <point x="203.875" y="291.0" />
+      <point x="213.87499999999997" y="291.0" />
+      <point x="213.87499999999997" y="212.0" />
+      <point x="194.25" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.factoryTarget.Service" target="it.uniroma2.ticketingsystem.domain.factoryTarget.Target">
+      <point x="0.0" y="-14.5" />
+      <point x="140.5" y="59.0" />
+      <point x="205.3125" y="59.0" />
+      <point x="-10.25" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.factoryTarget.FactoryTarget" target="it.uniroma2.ticketingsystem.domain.factoryTarget.Service">
+      <point x="-15.124999999999972" y="-14.5" />
+      <point x="179.125" y="128.0" />
+      <point x="140.5" y="128.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.factoryTarget.Other" target="it.uniroma2.ticketingsystem.domain.factoryTarget.Target">
+      <point x="0.0" y="-14.5" />
+      <point x="39.0" y="49.0" />
+      <point x="184.8125" y="49.0" />
+      <point x="-30.75" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.rest.TargetRestController" target="it.uniroma2.ticketingsystem.service.TargetService">
+      <point x="-39.24999999999997" y="-14.5" />
+      <point x="169.875" y="370.0" />
+      <point x="174.125" y="370.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.factoryTarget.FactoryTarget" target="it.uniroma2.ticketingsystem.domain.factoryTarget.Other">
+      <point x="-45.37499999999997" y="-14.5" />
+      <point x="148.875" y="138.0" />
+      <point x="39.0" y="138.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.repository.TargetRepository" target="it.uniroma2.ticketingsystem.domain.factoryTarget.FactoryTarget">
+      <point x="0.0" y="-14.5" />
+      <point x="134.375" y="212.0" />
+      <point x="153.91666666666663" y="212.0" />
+      <point x="-40.33333333333334" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.factoryTarget.FactoryTarget" target="it.uniroma2.ticketingsystem.domain.factoryTarget.Product">
+      <point x="15.125000000000028" y="-14.5" />
+      <point x="209.375" y="128.0" />
+      <point x="248.0" y="128.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.factoryTarget.FactoryTarget" target="it.uniroma2.ticketingsystem.domain.factoryTarget.Target">
+      <point x="45.37500000000003" y="-14.5" />
+      <point x="239.625" y="138.0" />
+      <point x="303.5" y="138.0" />
+      <point x="303.5" y="49.0" />
+      <point x="246.3125" y="49.0" />
+      <point x="30.75" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.domain.factoryTarget.Product" target="it.uniroma2.ticketingsystem.domain.factoryTarget.Target">
+      <point x="2.8421709430404007E-14" y="-14.5" />
+      <point x="248.00000000000006" y="59.0" />
+      <point x="225.8125" y="59.0" />
+      <point x="10.25" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.service.TargetService" target="it.uniroma2.ticketingsystem.repository.TargetRepository">
+      <point x="-29.75" y="-14.5" />
+      <point x="144.375" y="291.0" />
+      <point x="134.375" y="291.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="it.uniroma2.ticketingsystem.rest.TargetRestController" target="it.uniroma2.ticketingsystem.domain.factoryTarget.FactoryTarget">
+      <point x="39.25000000000003" y="-14.5" />
+      <point x="248.375" y="370.0" />
+      <point x="244.125" y="370.0" />
+      <point x="244.125" y="212.0" />
+      <point x="234.58333333333331" y="212.0" />
+      <point x="40.33333333333334" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="181.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
